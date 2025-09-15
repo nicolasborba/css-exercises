@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+p.odd-number {
+  background-color: #fc8e8e;
+  font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+div#second-element {
+  color: rgb(0, 0, 255);
+  font-size: 36px;
+}
+
+.font24px {
+  font-size: 24px;
+}
+
+div#fourth-element {
+  background-color: hsl(120, 92%, 75%);
+  font-weight: bold;
+}
