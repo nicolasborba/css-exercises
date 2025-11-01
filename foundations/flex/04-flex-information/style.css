@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin: auto;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +25,20 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+
+
+.content, .information, .barberry, .chilli, .pepper, .saffron {
+  display: flex;
+  margin: auto;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.content {
+  gap: 52px;
 }
