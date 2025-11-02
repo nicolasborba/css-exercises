@@ -31,14 +31,18 @@ img {
 
 .content, .information, .barberry, .chilli, .pepper, .saffron {
   display: flex;
-  margin: auto;
+  
 }
 
 .barberry, .chilli, .pepper, .saffron {
   align-items: center;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
+  width: 200px;
+  text-align: center;
 }
 
 .content {
   gap: 52px;
+  justify-content: center;
+  margin: auto;
 }
