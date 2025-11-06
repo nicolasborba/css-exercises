@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
 }
 
-.middle-portion, .front-page, .cards {
+.middle-portion, .front-page, .cards, .footer, .header {
   display: flex;
 }
 
@@ -12,6 +12,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  padding-left: 16px;
+  flex: 0 0 auto;
 }
 
 .footer {
@@ -19,13 +24,10 @@ body {
   background: #eee;
   color: darkmagenta;
   flex-flow: row nowrap;
-  text-align: center;
+  justify-content: center;
   align-items: center;
+  flex: 0 0 auto;
 
-}
-
-.footer-text {
-  text-align: center;
 }
 
 .sidebar {
@@ -33,12 +35,31 @@ body {
   background: royalblue;
   box-sizing: border-box;
   flex: 0 0 auto;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.sidebar ul li {
+  margin-bottom: 16px;
+}
+
+.sidebar ul li a { 
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  list-style-type: none;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  padding: 16px;
 }
 
 .front-page {
@@ -53,4 +74,6 @@ body {
 
 .cards {
   flex-flow: row wrap;
+  padding: 48px;
+  gap: 30px;
 }
